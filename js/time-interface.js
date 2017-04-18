@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   var update = function(){
     var time = moment().format('LTS');
