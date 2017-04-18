@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var update = function(){
-    var time = moment().format('LTS');
-    var now = $('#time').text(time);
+    var myclock = moment().format('LTS');
+    var now = $('#mytime').text(myclock);
   };
   setInterval(update, 1000);
 });
